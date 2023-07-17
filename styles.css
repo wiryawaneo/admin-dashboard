@@ -16,14 +16,23 @@
 .sidebar {
   display: grid;
   grid-template-rows: auto auto auto 10fr;
-  gap:30px;
+  gap: 30px;
 }
 
-
+/* header setting */
 .header {
   grid-column: 2/3;
   grid-row: 1/2;
 }
+
+/* .header grid settings */
+.header {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+
 .main-content {
   grid-column: 2/3;
   grid-row: 2/3;
